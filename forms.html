@@ -14,7 +14,7 @@
 
     <h2>Form elements</h2>
     <h3>INPUT</h3>
-    <p>The <code>&lt;"input"&gt;</code> tag specifies an input field where the user can enter data.</b>
+    <p>The <code>&lt;"input"&gt;</code> tag specifies an input field where the user can enter data.
     </p>
     <p>[EXAMPLE]</p>
     <form action="/action_page.php">
@@ -48,7 +48,7 @@
     <button type="button" onclick="alert('Hello World!')">Click Me!</button>
 
     <h3>FIELDSET</h3>
-    <p>The <code>&lt;"fieldset"&gt;</code> tag is used to group related elements in a form.</b>
+    <p>The <code>&lt;"fieldset"&gt;</code> tag is used to group related elements in a form.
     </p>
     <p>[EXAMPLE]</p>
     <form action="/action_page.php">
@@ -68,17 +68,17 @@
 
     <h3>DATALIST</h3>
     <p>The <code>&lt;"datalist"&gt;</code> element specifies a list of pre-defined options for an
-        < "input"> element</b>
+        <code>&lt;input&gt;</code> element
     </p>
     <p>[EXAMPLE]</p>
     <form action="action_page.php">
         <input list="browsers">
         <datalist id="browsers">
-          <option value="Internet Explorer">
-          <option value="Firefox">
-          <option value="Chrome">
-          <option value="Opera">
-          <option value="Safari">
+        <option value="Internet Explorer">
+        <option value="Firefox">
+        <option value="Chrome">
+        <option value="Opera">
+        <option value="Safari">
         </datalist>
     </form>
 
@@ -100,7 +100,7 @@
     <h3>BUTTON</h3>
     <p> <code>&lt;input type="button"&gt;</code> defines a button</p>
     <p>[EXAMPLE]</p>
-    <input type="button " onclick="alert( 'Hello World!') " value="Click Me! ">
+    <input type="button" onclick="alert('Hello World!')" value="Click Me!">
 
 
     <h3>CHECKBOX</h3>
@@ -119,8 +119,8 @@
     <p>The <code>&lt;input type="color"&gt;</code> is used for input fields that should contain a color. Depending on browser support, a color picker can show up in the input field.</p>
     <p>[EXAMPLE]</p>
     <form>
-        <label for="favcolor ">Select your favorite color:</label>
-        <input type="color " id="favcolor " name="favcolor ">
+        <label for="favcolor">Select your favorite color:</label>
+        <input type="color" id="favcolor" name="favcolor">
     </form>
 
     <h3>DATE</h3>
@@ -135,8 +135,8 @@
     <p>The <code>&lt;input type="month"&gt;</code> allows the user to select a month and year.</p>
     <p>[EXAMPLE]</p>
     <form>
-        <label for="bdaymonth ">Birthday (month and year):</label>
-        <input type="month " id="bdaymonth " name="bdaymonth ">
+        <label for="bdaymonth">Birthday (month and year):</label>
+        <input type="month" id="bdaymonth" name="bdaymonth">
     </form>
 
     <h3>EMAIL</h3>
@@ -144,8 +144,8 @@
         and add ".com " to the keyboard to match email input.</p>
     <p>[EXAMPLE]</p>
     <form>
-        <label for="email ">Enter your email:</label>
-        <input type="email " id="email " name="email ">
+        <label for="email">Enter your email:</label>
+        <input type="email" id="email" name="email">
     </form>
 
     <h3>FILE</h3>
@@ -162,24 +162,24 @@
         use hidden inputs as a form of security!</p>
     <p>[EXAMPLE]</p>
     <form>
-        <label for="fname ">First name:</label>
-        <input type="text " id="fname " name="fname "><br><br>
-        <input type="hidden " id="custId " name="custId " value="3487 ">
-        <input type="submit " value="Submit ">
+        <label for="fname">First name:</label>
+        <input type="text" id="fname" name="fname"><br><br>
+        <input type="hidden " id="custId" name="custId" value="3487">
+        <input type="submit" value="Submit">
     </form>
 
     <h3>IMAGE</h3>
     <p>The <code>&lt;input type="image"&gt;</code> defines an image as a submit button. The path to the image is specified in the src attribute.</p>
     <p>[EXAMPLE]</p>
-    <input type="image " src="img_submit.gif " alt="Submit " width="48 " height="48 ">
+    <input type="image" src="img_submit.gif" alt="Submit" width="48" height="48">
 
 
     <h3>NUMBER</h3>
     <p> <code>&lt;input type="number"&gt;</code> defines a numeric input field. You can also set restrictions on what numbers are accepted. The following example displays a numeric input field, where you can enter a value from 1 to 5</p>
     <p>[EXAMPLE]</p>
     <form>
-        <label for="quantity ">Quantity (between 1 and 5):</label>
-        <input type="number " id="quantity " name="quantity " min="1 " max="5 ">
+        <label for="quantity">Quantity (between 5 and 10):</label>
+        <input type="number" id="quantity" name="quantity" min="5" max="10">
     </form>
 
     <h3>PASSWORD</h3>
@@ -196,12 +196,12 @@
     <p> <code>&lt;input type="radio"&gt;</code> defines a radio button. Radio buttons let a user select ONLY ONE of a limited number of choices.</p>
     <p>[EXAMPLE]</p>
     <form>
-        <input type="radio " id="male " name="gender " value="male ">
-        <label for="male ">Male</label><br>
-        <input type="radio " id="female " name="gender " value="female ">
-        <label for="female ">Female</label><br>
-        <input type="radio " id="other " name="gender " value="other ">
-        <label for="other ">Other</label>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label><br>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br>
+        <input type="radio" id="other" name="gender" value="other">
+        <label for="other">Other</label>
     </form>
 
     <h3>RANGE</h3>
@@ -216,7 +216,7 @@
     <h3>RESET</h3>
     <p>The <code>&lt;input type="reset"&gt;</code> defines a reset button which resets all form values to its initial values. Tip: Avoid reset buttons in your forms! It is frustrating for users if they click them by mistake.</p>
     <p>[EXAMPLE]</p>
-    <input type="reset ">
+    <input type="reset">
 
 
     <h3>SEARCH</h3>
@@ -238,8 +238,8 @@
     <p> <code>&lt;input type="tel"&gt;</code> is used for input fields that should contain a telephone number.</p>
     <p>[EXAMPLE]</p>
     <form>
-        <label for="phone ">Enter your phone number:</label>
-        <input type="tel " id="phone " name="phone " pattern="[0-9]{3}-[0-9]{2}-[0-9]{3} ">
+        <label for="phone">Enter your phone number:</label>
+        <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}">
     </form>
 
     <h3>TEXT</h3>
@@ -296,40 +296,40 @@
     <p>The input <code>&lt;value&gt;</code> attribute specifies an initial value for an input field</p>
     <p>[EXAMPLE]</p>
     <form>
-        <label for="fname ">First name:</label><br>
-        <input type="text " id="fname " name="fname " value="Joel "><br>
-        <label for="lname ">Last name:</label><br>
-        <input type="text " id="lname " name="lname " value="Yaiser ">
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname" value="Joel"><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname" value="Yaiser">
     </form>
     <h3>READONLY</h3>
     <p>The input readonly attribute specifies that an input field is read-only. A read-only input field cannot be modified (however, a user can tab to it, highlight it, and copy the text from it). The value of a read-only input field will be sent when submitting
         the form!</p>
     <p>[EXAMPLE]</p>
     <form>
-        <label for="fname ">First name:</label><br>
-        <input type="text " id="fname " name="fname " value="Joel " readonly><br>
-        <label for="lname ">Last name:</label><br>
-        <input type="text " id="lname " name="lname " value="Yaiser ">
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname " value="Joel" readonly><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname " value="Yaiser">
     </form>
 
     <h3>DISABLED</h3>
     <p>The input disabled attribute specifies that an input field should be disabled. A disabled input field is unusable and un-clickable. The value of a disabled input field will not be sent when submitting the form!</p>
     <p>[EXAMPLE]</p>
     <form>
-        <label for="fname ">First name:</label><br>
-        <input type="text " id="fname " name="fname " value="Joel " disabled><br>
-        <label for="lname ">Last name:</label><br>
-        <input type="text " id="lname " name="lname " value="Yaiser ">
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname" value="Joel" disabled><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname" value="Yaiser">
     </form>
 
     <h3>SIZE</h3>
     <p>The input size attribute specifies the visible width, in characters, of an input field. The default value for size is 20. Note: The size attribute works with the following input types: text, search, tel, url, email, and password.</p>
     <p>[EXAMPLE]</p>
     <form>
-        <label for="fname ">First name:</label><br>
-        <input type="text " id="fname " name="fname " size="50 "><br>
-        <label for="pin ">PIN:</label><br>
-        <input type="text " id="pin " name="pin " size="4 ">
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname " name="fname" size="50"><br>
+        <label for="pin">PIN:</label><br>
+        <input type="text" id="pin" name="pin" size="4 ">
     </form>
 
     <h3>MAXLENGTH</h3>
@@ -337,10 +337,10 @@
         any feedback. So, if you want to alert the user, you must write JavaScript code.</p>
     <p>[EXAMPLE]</p>
     <form>
-        <label for="fname ">First name:</label><br>
-        <input type="text " id="fname " name="fname " size="50 "><br>
-        <label for="pin ">PIN:</label><br>
-        <input type="text " id="pin " name="pin " maxlength="4 " size="4 ">
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname" size="50"><br>
+        <label for="pin">PIN:</label><br>
+        <input type="text" id="pin" name="pin" maxlength="4" size="4">
     </form>
 
     <h3>MIN AND MAX</h3>
@@ -348,29 +348,29 @@
         together to create a range of legal values.</p>
     <p>[EXAMPLE]</p>
     <form>
-        <label for="datemax ">Enter a date before 1980-01-01:</label>
-        <input type="date " id="datemax " name="datemax " max="1979-12-31 "><br><br>
+        <label for="datemax">Enter a date before 1980-01-01:</label>
+        <input type="date" id="datemax" name="datemax " max="1979-12-31"><br><br>
 
-        <label for="datemin ">Enter a date after 2000-01-01:</label>
-        <input type="date " id="datemin " name="datemin " min="2000-01-02 "><br><br>
+        <label for="datemin">Enter a date after 2000-01-01:</label>
+        <input type="date" id="datemin" name="datemin" min="2000-01-02"><br><br>
 
-        <label for="quantity ">Quantity (between 1 and 5):</label>
-        <input type="number " id="quantity " name="quantity " min="1 " max="5 ">
+        <label for="quantity">Quantity (between 1 and 5):</label>
+        <input type="number" id="quantity" name="quantity" min="1" max="5">
     </form>
 
     <h3>MULTIPLE</h3>
     <p>The input multiple attribute specifies that the user is allowed to enter more than one value in an input field. The multiple attribute works with the following input types: email, and file.</p>
     <p>[EXAMPLE]</p>
     <form>
-        <label for="files ">Select files:</label>
-        <input type="file " id="files " name="files " multiple>
+        <label for="files">Select files:</label>
+        <input type="file" id="files " name="files  multiple>
     </form>
 
     <h3>PATTERN</h3>
     <p>The input pattern attribute specifies a regular expression that the input field's value is checked against, when the form is submitted. The pattern attribute works with the following input types: text, date, search, url, tel, email, and password.</p>
     <p>[EXAMPLE]</p>
     <form>
-        <label for="country_code ">Country code:</label>
+        <label for=" country_code ">Country code:</label>
         <input type="text " id="country_code " name="country_code " pattern="[A-Za-z]{3} " title="Three letter country code ">
     </form>
 
@@ -388,7 +388,7 @@
         and file.</p>
     <p>[EXAMPLE]</p>
     <form>
-        <label for="username ">Username:</label>
+        <label for="usernam ">Username:</label>
         <input type="text " id="username " name="username " required>
     </form>
 
@@ -398,41 +398,41 @@
     <p>[EXAMPLE]</p>
     <form>
         <label for="points ">Points:</label>
-        <input type="number " id="points " name="points " step="3 ">
+        <input type="number id="points" name="points" step="3">
     </form>
 
     <h3>AUTOFOCUS</h3>
     <p>The input autofocus attribute specifies that an input field should automatically get focus when the page loads.</p>
     <p>[EXAMPLE]</p>
     <form>
-        <label for="fname ">First name:</label><br>
-        <input type="text " id="fname " name="fname " autofocus><br>
-        <label for="lname ">Last name:</label><br>
-        <input type="text " id="lname " name="lname ">
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname" autofocus><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname">
     </form>
 
     <h3>HEIGHT AND WIDTH</h3>
-    <p>The input height and width attributes specify the height and width of an <code>&lt;input type="image"&gt;</code> element.</p>
+    <p>The input height and width attributes specify the height and width of an <code>&lt;input type="image "&gt;</code> element.</p>
     <p>[EXAMPLE]</p>
     <form>
-        <label for="fname ">First name:</label>
-        <input type="text " id="fname " name="fname "><br><br>
-        <label for="lname ">Last name:</label>
-        <input type="text " id="lname " name="lname "><br><br>
-        <input type="image " src="img_submit.gif " alt="Submit " width="48 " height="48 ">
+        <label for="fname">First name:</label>
+        <input type="text" id="fname" name="fname"><br><br>
+        <label for="lname">Last name:</label>
+        <input type="text" id="lname" name="lname"><br><br>
+        <input type="image" src="img_submit.gif " alt="Submit" width="48" height="48 ">
     </form>
 
     <h3>LIST</h3>
     <p>The input list attribute refers to a <code>&lt;datalist&gt;</code> element that contains pre-defined options for an <code>&lt;input&gt;</code> element.</p>
     <p>[EXAMPLE]</p>
     <form>
-        <input list="browsers ">
-        <datalist id="browsers ">
-          <option value="Internet Explorer ">
-          <option value="Firefox ">
-          <option value="Chrome ">
-          <option value="Opera ">
-          <option value="Safari ">
+        <input list="browsers">
+        <datalist id="browsers">
+        <option value="Internet Explorer">
+        <option value="Firefox">
+        <option value="Chrome">
+        <option value="Opera">
+        <option value="Safari">
         </datalist>
     </form>
 
